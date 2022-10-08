@@ -4,7 +4,7 @@
     <div class="row d-block d-md-flex flex-wrap justify-content-around bg-black my-3">
         <div class="card col-md" v-for="(testimonial, index) in testimonials" :key="index">
             <div class="d-block">
-                <img :src="testimonial.profile" class="card-img-top testimonial-img" :alt="testimonial.fullname">
+                <img :src="testimonial.profile" class="card-img-top testimonial-img img-fluid" :alt="testimonial.fullname">
             </div>
             <div class="card-body">
                 <h5 class="card-title bg-dark text-white">{{testimonial.fullname}}</h5>
